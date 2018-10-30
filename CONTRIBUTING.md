@@ -67,8 +67,13 @@ To upload your code to this git repo, do the following:
 
   1. Open up the folder that you downloaded this repo
      into.
-  1. Add your files to the folders in your local copy
-     of the Git repo.
+  1. Add your files to the corresponding folder for
+     the homework in your local copy of the Git repo.
+
+     * To avoid conflicts, create a new folder for
+       your code, using your name as its title (for
+       example "schmidt_eric").
+
   1. Run the following sequence of commands, replacing
      the content in capitals as appropriate:
 
