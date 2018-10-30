@@ -51,10 +51,10 @@ with this repository:
 
 To keep things simple, you'll also want to create a
 branch of your own to work on. To create a branch,
-run the following command, replacing the content in
-capitals as appropriate:
+run the following command, replacing bracketed content
+as appropriate:
 
-`git checkout -b YOUR_NAME`
+`git checkout -b <YOUR_NAME>`
 
 So, if your name is Joan Smith, you would use the
 following command:
@@ -70,10 +70,10 @@ To upload your code to this git repo, do the following:
   1. Add your files to the folders in your local copy
      of the Git repo.
   1. Run the following sequence of commands, replacing
-     the content in capitals as appropriate:
+     the content in angle brackets as appropriate:
 
      * `git add --all`
-     * `git commit -m `YOUR NAME HW #NUMBER`
+     * `git commit -m `<YOUR NAME> HW #<NUMBER>`
      * `git push`
 
 You may need to fork this repo in order to upload
