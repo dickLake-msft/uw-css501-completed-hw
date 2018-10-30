@@ -73,7 +73,7 @@ To upload your code to this git repo, do the following:
      the content in capitals as appropriate:
 
      * `git add --all`
-     * `git commit -m `YOUR NAME HW #NUMBER`
+     * `git commit -m "YOUR NAME HW #NUMBER"`
      * `git push`
 
 You may need to fork this repo in order to upload
