@@ -1,0 +1,1 @@
+g++ -o hw.out ./*.h ./*.cpp -std=c++11
