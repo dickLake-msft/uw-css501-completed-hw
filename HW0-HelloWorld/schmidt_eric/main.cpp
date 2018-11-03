@@ -68,11 +68,11 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-// Calculates an exponential value with the specified base and power.
+// Calculates an exponential value with specified base and power.
 // Recursive.
 int calculateExponent(int base, int power) {
     if (power == 0) {
-        return 0;
+        return 1; // FIXED FROM ORIGINAL SUBMISSION.
     } else if (power == 1) {
         return base;
     }

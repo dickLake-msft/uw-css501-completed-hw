@@ -1,11 +1,14 @@
 /*
 # Big-O Analysis
 
+[FIXED FROM ORIGINAL SUBMISSION]
 The copy constructor, List(const List &original),
-has a worst-case time complexity of O(n), where
+has a worst-case time complexity of O(n^2), where
 `n` is the number of items in the original list. The
 constructor touches each item in the list once to
-create the copy list.
+create the copy list. For each item in the list, the
+constructor calls the List.add() method which has a
+time complexity of O(n).
 
 It has a space complexity of O(1), since it does not
 call any methods recursively.
