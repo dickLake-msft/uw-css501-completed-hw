@@ -16,6 +16,5 @@ int main (int argc, const char* argv[]) {
 
     // Create the driver that tests the Color object.
     Driver driver;
-    cout << "I'm a change to main!" << endl;
     return driver.main();
 }
